@@ -91,10 +91,11 @@ label {
     margin-top: 5px;
     border: solid 1px #3f3f46;
     border-radius: 8px;
-    width: 90%;
-    height: 30px;
+    width: 110%;
+    height: 40px;
     padding-left: 30px;
     background-color: #27272a;
+    font-size: 14px;
 
 }
 
@@ -110,14 +111,41 @@ label {
 
 #password {
     margin-top: 5px;
-    border: solid 1px rgb(155, 154, 154);
+    border: solid 1px #3f3f46;
     border-radius: 8px;
-    width: 90%;
-    height: 30px;
+    width: 110%;
+    height: 40px;
     padding-left: 30px;
     background-color: #27272a;
+    font-size: 14px;
 }
 
+#recortext {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 5px;
+}
+
+
+.recor {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.olv {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-top: 2px;
+}
+
+.olv:hover {
+    color: rgb(196, 194, 194);
+}
 
 .icons{
     display: flex;
@@ -125,12 +153,41 @@ label {
     gap: 45px;
 }
 
-#caca, #caca2, #caca3 {
-    background-color: rgba(0, 0, 0, 0.753);
-    width: 40px;
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.btn {
+    width: 100%;
     height: 40px;
+    border: solid 1px;
+    border-radius: 12px;
+    color: rgba(55, 65, 81, 0.5);
+    font-weight: 600;
+}
+
+.parra {
+    margin-top: 15px;
+}
+
+.re2g {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.re2g:hover {
+    color: rgb(196, 194, 194);
+}
+
+#caca, #caca2, #caca3 {
+    background-color: #3f3f4652;
+    width: 45px;
+    height: 45px;
     color: rgb(230, 229, 229);
-    border-color: white;
+    border: solid #3f3f4652 1px;
     border-radius: 12px;
     margin-top: 10%;
 }
@@ -141,9 +198,21 @@ label {
     align-items: center;
 }
 
+#caca:hover {
+    border-color: #70707452;
+}
+
+#caca2:hover {
+    border-color: #70707452;
+}
+
+#caca3:hover {
+    border-color: #70707452;
+}
+
 .icons {
     display: flex;
-    gap: 25px;
+    gap: 55px;
 }
 
 
