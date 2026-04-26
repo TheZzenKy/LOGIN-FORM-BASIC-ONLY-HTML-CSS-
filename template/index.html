@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Practice</title>
+    <link rel="stylesheet" href="../static/style.css"> <!--enlazado con CSS-->
+    <link rel="icon" href="../images/favicon/favicon.jpg"> <!--favicon-->
+    <script src="https://kit.fontawesome.com/a1226ec0b1.js" crossorigin="anonymous"></script>
+    <!--INSERTAR LINK FONTS-->
+</head>
+<body>
+    <main>
+        <div class="form-login">
+            <form class="login">
+                <div class="icon-padlock">
+                    <i id="padlock" class="fa-solid fa-user-lock"></i>
+                </div>
+                <div class="info">
+                    <h1>Bienvenido</h1>
+                    <p>Ingresa tus credenciales para continuar</p>
+                </div>
+                <div class="important">
+                    <label id="emailtext" for="email">Correo Electronico</label>
+                    <div class="email-wraped">
+                        <input required type="email" id="email" name="email" placeholder="example@email.com">
+                    </div>
+                    <label id="passwordtext" for="password">Contraseña</label>
+                    <div class="password-wraped">
+                        <input type="password" id="password" name="password" placeholder="••••••••">
+                    </div>
+                </div>
+                <div class="recor">
+                    <label><input type="checkbox" value="Recordarme">Recordarme</label>
+                    <a href="#">¿Olvidaste tu contraseña?</a>
+                </div>
+                <div class="register">
+                    <button class="btn" type="submit">Iniciar Sesion</button>
+                    <p>¿No tienes cuenta?<a href="#">Registrate</a></p>
+                </div>
+                <div class="icons">
+                    <i id="caca" class="fa-brands fa-facebook"></i>
+                    <i id="caca2" class="fa-brands fa-google"></i>
+                    <i id="caca3" class="fa-brands fa-github"></i>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

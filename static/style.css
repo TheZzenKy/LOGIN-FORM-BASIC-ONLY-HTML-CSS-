@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;  
+    background-color: black;
+    background-image: radial-gradient(
+    ellipse at 80% 1%,    /* 1. Origen: Círculo en el centro horizontal (50%), arriba (30%) */
+    #1a1b1f 0%,           /* 2. Color del "brillo": Un gris-azulado muy tenue */
+    #000000 80%);          /* 3. Color final: Negro puro, que empieza a dominar al 70% */
+}
+
+.form-login {
+    border: solid #27272a 0.1px;
+    border-radius: 20px;
+    padding: 100px 100px; 
+}
+
+
+
+
+
+
+.icon-padlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#padlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#padlock {
+    background-color: #3f3f46;
+    color: #d4d4d8;
+    width: 75px;
+    height: 75px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a1a1aa;
+}
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.important {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#emailtext {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#email{
+    margin-top: 5px;
+    border: solid 1px #3f3f46;
+    border-radius: 8px;
+    width: 90%;
+    height: 30px;
+    padding-left: 30px;
+    background-color: #27272a;
+
+}
+
+.email-wraped {
+    margin-bottom: 16px;
+}
+
+#passwordtext {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#password {
+    margin-top: 5px;
+    border: solid 1px rgb(155, 154, 154);
+    border-radius: 8px;
+    width: 90%;
+    height: 30px;
+    padding-left: 30px;
+    background-color: #27272a;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+#caca, #caca2, #caca3 {
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 40px;
+    height: 40px;
+    color: rgb(230, 229, 229);
+    border-color: white;
+    border-radius: 12px;
+    margin-top: 10%;
+}
+
+#caca, #caca2, #caca3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+
+
