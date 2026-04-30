@@ -12,9 +12,9 @@ main {
     min-height: 100vh;  
     background-color: black;
     background-image: radial-gradient(
-    ellipse at 80% 1%,    /* 1. Origen: Círculo en el centro horizontal (50%), arriba (30%) */
-    #1a1b1f 0%,           /* 2. Color del "brillo": Un gris-azulado muy tenue */
-    #000000 80%);          /* 3. Color final: Negro puro, que empieza a dominar al 70% */
+    ellipse at 80% 1%,    
+    #1a1b1f 0%,           
+    #000000 80%);          
 }
 
 .form-login {
@@ -22,11 +22,6 @@ main {
     border-radius: 20px;
     padding: 100px 100px; 
 }
-
-
-
-
-
 
 .icon-padlock {
     display: flex;
@@ -99,6 +94,7 @@ label {
     padding-left: 10px;
     background-color: #27272a;
     font-size: 14px;
+    color: white;
 
 }
 
@@ -121,6 +117,7 @@ label {
     padding-left: 10px;
     background-color: #27272a;
     font-size: 14px;
+    color: white;
 }
 
 #recortext {
@@ -136,6 +133,10 @@ label {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+}
+
+#recortext {
+    cursor: pointer;
 }
 
 .olv {
@@ -222,6 +223,3 @@ label {
     display: flex;
     gap: 55px;
 }
-
-
-
