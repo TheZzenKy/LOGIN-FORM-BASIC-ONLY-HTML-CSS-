@@ -40,16 +40,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 6px 15px rgba(55, 65, 81, 0.5);
 }
 
 #padlock {
-    background-color: #3f3f46;
     color: #d4d4d8;
     width: 75px;
     height: 75px;
     border-radius: 12px;
     margin-bottom: 40px;
     font-size: 30px;
+    background-image: linear-gradient(to right, #4b5563, #1f2937)
+    
+
 }
 
 .info {
@@ -91,9 +94,9 @@ label {
     margin-top: 5px;
     border: solid 1px #3f3f46;
     border-radius: 8px;
-    width: 110%;
+    width: 100%;
     height: 40px;
-    padding-left: 30px;
+    padding-left: 10px;
     background-color: #27272a;
     font-size: 14px;
 
@@ -113,9 +116,9 @@ label {
     margin-top: 5px;
     border: solid 1px #3f3f46;
     border-radius: 8px;
-    width: 110%;
+    width: 100%;
     height: 40px;
-    padding-left: 30px;
+    padding-left: 10px;
     background-color: #27272a;
     font-size: 14px;
 }
@@ -156,6 +159,7 @@ label {
 .register {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-top: 45px;
 }
@@ -163,15 +167,24 @@ label {
 .btn {
     width: 100%;
     height: 40px;
-    border: solid 1px;
+    border: solid 0;
     border-radius: 12px;
-    color: rgba(55, 65, 81, 0.5);
+    color: white;
     font-weight: 600;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #4b5563, #1f2937);
+    transition-duration: 0.4s;
+    box-shadow: 0px 6px 15px rgba(55, 65, 81, 0.5);
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .parra {
     margin-top: 15px;
 }
+
 
 .re2g {
     text-decoration: none;
@@ -182,7 +195,7 @@ label {
     color: rgb(196, 194, 194);
 }
 
-#caca, #caca2, #caca3 {
+#icn {
     background-color: #3f3f4652;
     width: 45px;
     height: 45px;
@@ -190,24 +203,19 @@ label {
     border: solid #3f3f4652 1px;
     border-radius: 12px;
     margin-top: 10%;
+    transition-duration: 0.4s;
 }
 
-#caca, #caca2, #caca3 {
+.icons > i{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#caca:hover {
+#icn:hover {
     border-color: #70707452;
-}
-
-#caca2:hover {
-    border-color: #70707452;
-}
-
-#caca3:hover {
-    border-color: #70707452;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .icons {
